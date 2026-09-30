@@ -76,7 +76,7 @@ require (
 	k8s.io/kube-proxy v0.37.0
 	k8s.io/kubectl v0.37.0
 	k8s.io/kubelet v0.37.0
-	k8s.io/kubernetes v1.37.0
+	k8s.io/kubernetes v1.37.1
 	k8s.io/mount-utils v0.37.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 	modernc.org/sqlite v1.58.0
@@ -303,7 +303,7 @@ require (
 
 // Replacements duplicated from upstream Kubernetes
 replace (
-	// https://github.com/kubernetes/kubernetes/blob/v1.37.0/go.mod#L228-L262
+	// https://github.com/kubernetes/kubernetes/blob/v1.37.1/go.mod#L228-L262
 	// Keep in sync with renovate.json
 	k8s.io/api => k8s.io/api v0.37.0
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.37.0
